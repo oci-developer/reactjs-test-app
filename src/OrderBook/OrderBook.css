@@ -1,0 +1,138 @@
+.bgColor {
+  background: #273140;
+  color: #fff;
+  /* height: 100vh; */
+}
+.navBg {
+  background: #101826;
+}
+.tableBg {
+  background: #101826;
+  color: #fff;
+  margin-top: 3px;
+}
+
+* {
+  border-color: #101826 !important;
+}
+.arrow {
+  border: solid #fff;
+  border-color: #fff !important;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  margin-left: 5px !important;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.arrowBg {
+  background: #273140;
+  padding: 4px 12px;
+  border-radius: 10px;
+}
+thead {
+  color: #474e5c !important;
+}
+.greenNumbers {
+  color: #489e70 !important;
+  font-weight: 900;
+}
+.redNumbers {
+  color: #8c2e35 !important;
+  font-weight: 900;
+}
+.feedBtn {
+  width: 150px;
+  border: none;
+  height: 46px;
+  border-radius: 9px;
+  background: #b9291c;
+  color: #fff;
+}
+.bg {
+  background-color: hsl(247deg 66% 56%) !important;
+}
+.mleft {
+  margin-right: 5px;
+}
+@media screen and (min-width: 769px) {
+  .paddingRight {
+    padding-right: 1px !important;
+  }
+  .paddingLeft {
+    padding-left: 1px !important;
+  }
+}
+
+.trbg {
+  background-image: linear-gradient(271deg, #12383a 29%, #101826 29%);
+}
+
+.trbg1 {
+  background-image: linear-gradient(271deg, #12383a 33%, #101826 33%);
+}
+.trbg2 {
+  background-image: linear-gradient(270deg, #12383a 36%, #101826 36%);
+}
+.trbg3 {
+  background-image: linear-gradient(270deg, #12383a 50%, #101826 50%);
+}
+.trbg4 {
+  background-image: linear-gradient(270deg, #12383a 63%, #101826 63%);
+}
+.trbg5 {
+  background-image: linear-gradient(270deg, #12383a 65%, #101826 65%);
+}
+.trbg6 {
+  background-image: linear-gradient(270deg, #12383a 94%, #101826 94%);
+}
+
+.trbg7 {
+  background-image: linear-gradient(270deg, #12383a 98%, #101826 98%);
+}
+
+.trbg8 {
+  background-image: linear-gradient(450deg, #3d202c 2%, #101826 2%);
+}
+.trbg9 {
+  background-image: linear-gradient(450deg, #3d202c 3%, #101826 3%);
+}
+.trbg10 {
+  background-image: linear-gradient(450deg, #3d202c 5%, #101826 5%);
+}
+.trbg9 {
+  background-image: linear-gradient(450deg, #3d202c 7%, #101826 7%);
+}
+.trbg10 {
+  background-image: linear-gradient(450deg, #3d202c 10%, #101826 10%);
+}
+.trbg11 {
+  background-image: linear-gradient(450deg, #3d202c 12%, #101826 12%);
+}
+.trbg12 {
+  background-image: linear-gradient(450deg, #3d202c 19%, #101826 19%);
+}
+.trbg13 {
+  background-image: linear-gradient(450deg, #3d202c 20%, #101826 20%);
+}
+.trbg14 {
+  background-image: linear-gradient(450deg, #3d202c 24%, #101826 24%);
+}
+.trbg15 {
+  background-image: linear-gradient(450deg, #3d202c 29%, #101826 29%);
+}
+.trbg16 {
+  background-image: linear-gradient(450deg, #3d202c 40%, #101826 40%);
+}
+.trbg17 {
+  background-image: linear-gradient(450deg, #3d202c 58%, #101826 58%);
+}
+.trbg18 {
+  background-image: linear-gradient(450deg, #3d202c 70%, #101826 70%);
+}
+.trbg19 {
+  background-image: linear-gradient(450deg, #3d202c 14%, #101826 14%);
+}
