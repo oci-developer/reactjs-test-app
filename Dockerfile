@@ -1,5 +1,6 @@
 FROM node:current-alpine as build
 
+RUN mkdir /app
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
