@@ -68,3 +68,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Docker containerization
+
+### Dev:
+
+Build Image:
+
+    docker build -t <YOUR_DOCKER_USER>/reactjs-test-app -f Dockerfile.dev .
+
+Run Image:
+
+    docker run -it -p 3000:3000 <YOUR_DOCKER_USER>/reactjs-test-app
+
+If you want to enable auto-reload, you just need to specify a docker volume when running it with:
+
+    docker run -it -p 3000:3000 -v /app/node_modules -v $(pwd):/app <YOUR_DOCKER_USER>/reactjs-test-app
+
+`-v /app/node_modules` —Tells Docker to keep using its node_modules inside the container.
+
+`-v $(pwd):/app` — Maps the current working directory to the app folder inside the container. Meaning that changes made on this directory will be propagated to the app folder inside the container.
+
+    Note that if you are using Powershell or CMD in windows, the $(pwd) command might be different. In Powershell, it is ${pwd}.
+
+### Production
+
+Build Image:
+
+    docker build -t <YOUR_DOCKER_USER>/reactjs-test-app .
+
+Run Image:
+
+    docker run -p 3000:80 <YOUR_DOCKER_USER>/reactjs-test-app
